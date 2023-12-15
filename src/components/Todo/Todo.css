@@ -1,0 +1,52 @@
+.todo-container {
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background-color: rgb(226 232 240);
+  border-radius: 10px;
+}
+
+#check {
+  width: 10%;
+  height: 40%;
+}
+
+.todo-texto {
+  width: 80%;
+  border-radius: 10px;
+  text-align: start;
+  padding: 10px;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.todo-texto-completo {
+  width: 80%;
+  border-radius: 10px;
+  text-align: start;
+  padding: 10px;
+
+  text-decoration: line-through;
+  font-style: italic;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.todo-remover {
+  background: transparent;
+  border: none !important;
+  cursor: pointer;
+}
+
+.todo-remover svg {
+  fill: rgb(15 23 42);
+}
+
+.todo-remover svg:hover {
+  fill: rgb(185 28 28);
+}
